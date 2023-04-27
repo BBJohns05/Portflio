@@ -30,8 +30,8 @@
   left: 17rem;
   top: 103rem;
   margin-bottom: 30px;
-  opacity: 20%;
   z-index: 21;
+  border: 1px solid transparent;
 }
 
 #right {
