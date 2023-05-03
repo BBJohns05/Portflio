@@ -43,6 +43,11 @@ h1 {
     background-size: 100% 100%;
     position: absolute;
 }
+
+.carousel-control-next-icon {
+    background-image: url(./images/arrow.png);
+}
+
 /* helper css, since we don't have images */
 .slide1 {
     background: red;
@@ -160,4 +165,8 @@ footer{
             top: 116rem;
             margin-left: 63rem;
             z-index: 22;
+}
+
+#title{
+    
 }

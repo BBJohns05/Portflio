@@ -6,7 +6,7 @@ setInterval(() => {
 
     // $(".lantern").delay(500).addClass("lanternShadowTwo").delay(500).removeClass("lanternShadowTwo");
 
-    $(".lantern").css("box-shadow", "0px 0px 50px 5px rgb(228, 137, 137)").delay(1000).css("box-shadow", "0px 0px 60px 10px rgb(223, 171, 93);");
+    $(".lantern").css("box-shadow", "0px 0px 50px 5px rgb(228, 137, 137)").delay(1000).css("box-shadow", "0px 0px 60px 10px rgb(223, 171, 93);").delay(1000).css(".lantern").css("box-shadow", "0px 0px 50px 5px rgb(228, 137, 137)");
 
     //     $(".lantern").removeClass(".lanternShadowTwo")
     // $('.lantern').slideUp(400, function(){
@@ -16,6 +16,8 @@ setInterval(() => {
    console.log('hello')
 
 },2000)
+
+
 
 
 //carousel
@@ -71,4 +73,18 @@ $(function(){
     $slideContainer
     .on('mouseenter', pauseSlider)
     .on('mouseleave', startSlider)
+})
+
+//spin the wheeels
+
+
+$('.wheel').on('click', function(){
+    $('.wheel').stop().animate({  borderSpacing: -360 }, {
+    step: function(now,fx) {
+      $(this).css('-webkit-transform','rotate('+now+'deg)'); 
+      $(this).css('-moz-transform','rotate('+now+'deg)');
+      $(this).css('transform','rotate('+now+'deg)');
+    },
+    duration: 3000
+},'linear'); 
 })
