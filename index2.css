@@ -102,7 +102,7 @@ h1 {
   top: 103rem;
   background: linear-gradient(45deg, yellow, blue, orange, red, pink, purple, green);
   background-size: 400%;
-  z-index: 19;
+  z-index: -1;
 }
 
 #right {
