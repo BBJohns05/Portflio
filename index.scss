@@ -131,6 +131,15 @@ h1 {
         top: 55rem;
 }
 
+.pictureFrame{
+    position: absolute;
+    z-index: 1000;
+    width: 50rem;
+    height: 50rem;
+    top: 25rem;
+    left: 2px;
+    
+}
 footer{
     position: relative;
     top: 100rem;
@@ -150,7 +159,7 @@ footer{
     z-index: 20;
 }
 .leftWheel{
-    background: rgb(53, 79, 86);
+    background: rgb(48, 159, 72);
     position: absolute;
         border-radius: 50%;
         width: 15rem;
@@ -177,7 +186,3 @@ footer{
     top: 80rem;
 }
 
-.pictureFrame{
-    
-    z-index: 1000;
-}
