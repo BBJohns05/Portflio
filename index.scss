@@ -43,10 +43,10 @@ h1 {
     background-size: 100% 100%;
     position: absolute;
 }
-
 .carousel-control-next-icon {
     background-image: url(./images/arrow.png);
 }
+
 
 /* helper css, since we don't have images */
 .slide1 {
@@ -71,7 +71,7 @@ h1 {
 
 .navbar{
     .btn{
-        width: 200px
+        width: 200px;
     }
 }
 
@@ -91,7 +91,7 @@ h1 {
     height: 200px;
     bottom: 50rem;
     position: absolute;
-    left: 17rem;
+    left: 15rem;
     top: 100rem;
     margin-bottom: 30px;
     z-index: 1000;
@@ -113,22 +113,22 @@ h1 {
 
 #right{
     background: rgb(84, 58, 28);
-        width: 15rem;
-        height: 20rem;
+        width: 20rem;
+        height: 30rem;
         bottom: 50rem;
         position: absolute;
-        right: 5%;
-        top: 40rem;
+        right: 1%;
+        top: 55rem;
 }
 
 #left{
     background: rgb(28, 60, 84);
-        width: 15rem;
-        height: 20rem;
+        width: 20rem;
+        height: 30rem;
         bottom: 50rem;
         position: absolute;
         left: 20%;
-        top: 40rem;
+        top: 55rem;
 }
 
 footer{
@@ -150,7 +150,7 @@ footer{
     z-index: 20;
 }
 .leftWheel{
-    background: rgb(15, 44, 52);
+    background: rgb(53, 79, 86);
     position: absolute;
         border-radius: 50%;
         width: 15rem;
@@ -170,4 +170,14 @@ footer{
             top: 116rem;
             margin-left: 63rem;
             z-index: 20;
+}
+
+.gallery{
+    position: relative;
+    top: 80rem;
+}
+
+.pictureFrame{
+    
+    z-index: 1000;
 }
