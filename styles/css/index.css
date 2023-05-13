@@ -4,7 +4,20 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-image: url(./);
+  font-family: gothic;
+}
+
+@font-face {
+  font-family: gothic;
+  src: url("/font/CloisterBlack.ttf");
+}
+.bkg {
+  background-image: url(./images/gothicBackground.jpg);
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
@@ -161,7 +174,6 @@ footer {
 }
 
 .leftWheel {
-  background: rgb(159, 48, 117);
   position: absolute;
   border-radius: 50%;
   width: 15rem;
@@ -170,10 +182,10 @@ footer {
   z-index: 22;
   margin-left: 16rem;
   top: 116rem;
+  filter: invert(100)
 }
 
 .rightWheel {
-  background: rgb(53, 79, 86);
   position: absolute;
   border-radius: 50%;
   width: 15rem;
@@ -181,6 +193,7 @@ footer {
   top: 116rem;
   margin-left: 63rem;
   z-index: 20;
+  filter: invert(100)
 }
 
 .gallery {

@@ -67,12 +67,12 @@ $(function(){
 
     //start Slider
 
-    startSlider();
+    // startSlider();
 
     //if mouse hovers over the slide then the animations stops and then it leaves it starts again
     $slideContainer
     .on('mouseenter', pauseSlider)
-    .on('mouseleave', startSlider)
+    // .on('mouseleave', startSlider)
 })
 
 //spin the wheeels
