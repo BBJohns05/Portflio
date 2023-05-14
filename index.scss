@@ -69,7 +69,7 @@ h1 {
     background-size: 100% 100%;
     position: absolute;
     right: 20rem;
-    background-image: ;
+
 }
 
 #carouselExample {
@@ -113,33 +113,24 @@ h1 {
     top: 100px
 }
 
-
-
 .lantern {
     //background:rgb(167, 154, 136);
     width: 7rem;
     height: 200px;
     bottom: 50rem;
     position: absolute;
-    left: 24rem;
-    top: 127rem;
+    left: 10rem;
+    top: 100rem;
     margin-bottom: 30px;
     z-index: 1000;
-    box-shadow: linear-gradient(45deg, yellow, blue, orange, red, pink, purple, green);
 }
-
-.lanternShadow {
-    // transition: .3s all;
-    content: '';
+.chain{
+    height: 30rem;
+    width: 40rem;
     position: absolute;
-    width: 6rem;
-    height: 8rem;
-    bottom: 50rem;
-    left: 17rem;
-    top: 103rem;
-    //background: linear-gradient(45deg , yellow, blue, orange, red, pink, purple, green);
-    background-size: 400%;
-    z-index: -1;
+    left: 1%;
+    top: 76rem;
+    z-index: 30;
 }
 
 #right {
