@@ -77,7 +77,6 @@ $(function(){
 
 //spin the wheeels
 
-
 $('.wheel').on('click', function(){
     $('.wheel').stop().animate({  borderSpacing: -360 }, {
     step: function(now,fx) {
@@ -88,3 +87,27 @@ $('.wheel').on('click', function(){
     duration: 3000
 },'linear'); 
 })
+
+
+// Smooth scrolling for nav
+      $(".home").click(function() {
+           $('html, body').animate({
+               scrollTop:        $(".one").offset().top-66
+           }, 1000);
+        return false;
+       });
+      
+      $(".abt").click(function() {
+           $('html, body') .animate({
+               scrollTop:        $(".two").offset().top-112
+           }, 1000);
+        return false;
+       });
+      
+      $(".gal").click(function() {
+           $(' html,body') .animate({
+               scrollTop:        $(".three").offset().top-112
+           }, 1000);
+        return false;
+       });
+    
